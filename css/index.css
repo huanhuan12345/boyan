@@ -1,0 +1,272 @@
+*{padding: 0;margin: 0;list-style: none;font-family: "微软雅黑";}
+html,body{width: 100%;height: 100%;font-size:0.3rem;overflow:hidden}
+footer a,header a,#tit a{color: white;text-decoration: none;}
+.swiper-container {
+    width:100%;
+    height: 100%;
+  }
+  img{width: 100%;height: 100%;}
+  header{
+  	width: 100%;
+  	height: 9%;
+  	padding: 0.12rem;
+  	background: #e4366b;
+  	text-align: center;
+  	color: white;
+  	font-size: 0.45rem;
+  } 
+ header h1{
+ 	padding-top: 4%;
+ }
+nav{
+	width: 100%;
+  	height: 9%;
+  	background: #52525a;
+  	color: gray;
+  	padding-top: 0.72rem;
+  }
+.input{
+	width: 91.1%;
+	height: 63.1%;
+	background: white;
+	border-radius: 0.25rem;
+	margin:0 auto;
+	padding-left: 2%;
+}
+.input input{
+	width: 81.1%;
+	height: 100%;
+	float: left;
+	border: none;
+	font-size:0.8rem;
+} 
+.input span{
+	float: left;
+	width: 9.9%;
+	height: 100%;
+} 
+section{
+  	height: 26.1%;
+  	width: 100%;
+}
+#wrapper{
+	width:100%;
+	height:11rem;
+	overflow:hidden;
+}
+.box{width:100%}		
+.article{
+  	height: 5rem;
+  	width: 95%;
+  	padding: 3.5% 2.5%;
+  	border-bottom: 0.05rem solid gray;
+}
+.img1{
+	width:34% ;
+	height: 100%;
+	float: left;
+	margin-right: 4%;
+}
+#text{
+	width: 60%;
+	height: 100%;
+	float: left;
+	font-size: 0.6rem;
+	color: #000;
+	position: relative;
+}
+#text p{margin-bottom: 0.25rem;}
+#text button{
+	float: right;
+	background:#f42a74 ;
+	border: none;
+	border-radius: 0.25rem;
+	position: absolute;
+	left: 48%;
+	top: 52%;
+}
+.jiage{
+	width: 30%;
+}
+#youhui{
+	color:#f42a74 ;
+	font-size: 0.7rem;
+} 
+#yuanjia{
+	color: gainsboro;
+} 
+footer{
+	width: 100%;
+  	height: 10.4%;
+  	background: #52525a;
+  	color: gray;
+  	padding-bottom: 0.25rem;
+  	position: fixed;
+  	bottom: 0;
+  }
+footer ul{
+	width: 100%;
+  	height: 100%;
+  	background: #52525a;
+  }
+ footer ul li{
+	width: 15%;
+	height: 100%;
+	padding-bottom: 0.7rem;
+	margin-left: 0.7rem;
+	text-align: center;
+  	float: left;
+  	font-size: 0.4rem;
+  } 
+footer ul li p{
+	width: 80%;
+	margin:0.12rem auto;
+	height: 60%;
+	vertical-align: middle;
+  } 
+ /*我的秀页面*/
+.toLeft{
+	width: 10.4%;
+	height: 55%;
+	margin: 0.5rem;
+	float: left;
+	line-height: 0.75rem;
+}
+.title{
+	width: 63.6%;
+	height: 100%;
+	font-weight: bold;
+	font-size: 1rem;
+	margin-top: 0.25rem;
+	display: block;
+	float: left;
+}
+.box1{
+	width: 100%;
+	height: 76.4%;
+	background: #f7f7f7;
+	padding: 0.5rem 0;
+}
+.ul{width: 100%;}
+.box2{
+	width: 100%;
+	height: 22rem;
+	background: #f7f7f7;
+	padding: 0.5rem 0;
+}
+#menu{
+	width: 94%;
+	height: 54%;
+	margin: 0.25rem auto;
+}
+#boxUser{
+	width: 94%;
+	height: 28%;
+	margin: 1.25rem auto;
+}
+#pic{
+	width: 40%;
+	height:100%;
+	float: left;
+}
+#tit{
+	width: 40%;
+	height:100%;
+	margin-left: 10%;
+	float: left;
+}
+#tit b{
+	font-weight: bold;
+	font-size: 1rem;
+	color: #000;
+}
+#tit button{
+	background: #ed4576;
+	padding: 0.25rem 0.5rem;
+	margin-right: 0.52rem;
+	border: none;
+	color: #fff;
+	border-radius: 0.25rem;
+}
+/*注册*/
+.title1{
+	width: 72.6%;
+	height: 100%;
+	font-weight: bold;
+	font-size: 1rem;
+	margin-top: 0.25rem;
+	display: block;
+	float: left;
+}
+.btn1{
+	width: 9%;
+	height: 51%;
+	background:#ED4576;
+	padding: 0.25rem 0.5rem;
+	font-size: 0.7rem;
+	margin-top: 0.25rem;
+	display: block;
+	float: left;
+	color: #fff;
+	border-radius: 0.25rem;
+}
+.User{
+	width: 88%;
+	height: 11%;
+	margin: 1.55rem auto;
+	display: block;
+	border-radius: 0.25rem;
+	font-size: 0.82rem;
+}
+.btn2{
+	width: 86%;
+	height: 11%;
+	background:#e93c71;
+	font-weight: bold;
+	text-align: center;
+	margin: 1.55rem auto;
+	font-size: 0.82rem;
+	display: block;
+	border: none;
+	color: #fff;
+	border-radius: 0.25rem;
+}
+.show{
+	width: 88%;
+	height: 11%;
+	margin: 1.55rem auto;
+	font-size: 0.82rem;
+}
+#lose{
+	width: 88%;
+	height: 5%;
+	margin: 0.25rem auto;
+	font-size: 0.82rem;
+}
+#lose span{
+	margin-right: 1.55rem;
+}
+.check{
+	width: 16%;
+	height: 80%;
+	margin-right: 0.55rem;
+}
+/*列表页*/
+.imga{
+	width: 88%;
+	height: 57%;
+	margin: 0.55rem auto;
+	font-size: 0.82rem;
+}
+h4{
+	width: 88%;
+	margin-left: 0.8rem;
+	font-size: 0.62rem;
+}
+.jiage1{
+	width: 88%;
+	margin-left: 0.8rem;
+	font-size: 0.62rem;
+	color: #F42A74;
+	font-weight: bold;
+}
